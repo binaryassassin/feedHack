@@ -1,0 +1,28 @@
+<h1>What People Have Been Saying:</h1>
+<br/>
+<br/>
+<table>
+  <tr>
+  <p>
+    <th>Title</th>
+    <th>Text</th>
+    <th></th>
+    <th></th>
+    <th>Options</th>
+    </p>
+  <% @posts.each do |post| %>
+    <tr>
+    <p>
+      <td><p><%= post.title %></p></td>
+      <td colspan = "3"><p><%= post.text %></p></td>
+      <td><p><%= link_to 'Edit', edit_post_path(post) %><p></td>
+      <td><p><%= link_to 'View', post_path(post) %></p></td>
+      </p>
+    </tr>
+  <% end %>
+</table>
+<br/>
+<br/>
+<p align = "center">
+<%= link_to 'Post Something', new_post_path %>
+</p>

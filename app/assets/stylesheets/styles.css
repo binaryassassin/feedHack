@@ -1,0 +1,142 @@
+/* ================= CSS Reset ================= */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption 
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+strong, b 
+{
+	font-weight:bold;
+}
+
+em, dfn, i 
+{
+	font-style:italic;
+}
+
+/* ================= General Tags ================= */
+
+body 
+{
+	font: 12px/1.7 Helvetica, Arial, Tahoma, sans-serif;
+	color:#666666;
+	-webkit-font-smoothing: antialiased;
+	backgorund:#f6f4e7;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	margin-bottom:12px;
+	font-weight:600;
+}
+
+a:link, a:visited, a:hover, a:active, a:focus 
+{
+	text-decoration:none;
+	outline: none;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+a 
+{
+	color:#d93e39;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+a:hover 
+{
+	text-decoration:underline;
+}
+
+pre 
+{
+	white-space:pre;
+	overflow:auto;
+	padding:20px;
+}
+
+code 
+{
+	white-space:pre;
+	overflow:auto;
+	padding:14px;
+	color:#595959;
+	background:#f6f6f6;
+	display:block;
+	border:1px solid #ddd;
+	font-size:11px;
+	line-height:15px;
+}
+
+code strong 
+{
+	color:#000;
+}
+
+p 
+{
+	color:#74665b;
+	font-size:12px;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	line-height:22px;
+}
+
+dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, blockquote, article, p 
+{
+	margin-bottom: 20px;
+}
+
+::selection 
+{
+	background:#2e2823;
+	color:#FFFFFF;
+}
+
+::-moz-selection 
+{
+background:#2e2823;
+color:#FFFFFF;
+}
+
+/* ================= Headers ================= */
+
+h1 
+{
+	font-size:25px;
+	color:#453C34;
+}
+
+h2 
+{
+	font-size:22px;
+	color:#453C34;
+}
+
+h3 
+{
+	font-size:18px;
+	color:#453C34;
+}
+
+h4 
+{
+	font-size:16px;
+	color:#453C34;
+}
+
+h5 
+{
+	font-size:14px;
+	color:#453C34;
+}
+
+h6 
+{
+	font-size:12px;
+	color:#453C34;
+}

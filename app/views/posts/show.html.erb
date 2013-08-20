@@ -1,0 +1,21 @@
+<h1>Show</h1>
+  <p>
+    <p>
+      <strong>User: </strong>
+      <br/>
+    </p>
+    <p>
+      <strong>Title: </strong>
+      <%= @post.title %>
+      <br/>
+    </p>
+    <p>
+      <strong>Text: </strong>
+      <br/>
+      <br/>
+      <%= @post.text %>
+    </p> 
+  </p>
+  <br/>
+  <%= link_to 'Go Back', posts_path %>
+  <%= link_to 'Edit This', edit_post_path(@post) %>
